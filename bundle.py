@@ -91,3 +91,6 @@ def main():
     install_brew()
     install_oh_my_zsh()
     install_iterm2()
+
+if __name__ == "__main__":
+    main()
