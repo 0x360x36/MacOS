@@ -12,14 +12,10 @@ def install_tools():
     """
     Install the required tools using Homebrew.
     """
-    # Check if Homebrew is installed
-    if not os.path.exists('/usr/local/bin/brew'):
-        print("Homebrew is not installed. Please install it first.")
-        return
-
     # List of tools to install
     tools = [
-        'nmap'
+        'nmap',
+        'nuclei'
     ]
 
     for tool in tools:
